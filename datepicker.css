@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+body {
+  background-color: #1DEF70;
+}
+.dim {
+  color: #d0d0d0;
+  font-size: 20px;
+}
+.dim:hover {
+  background-color: #dcdcdc;
+  transition-duration: 1s;
+  color: #ff69b4;
+}
+.alright {
+  text-align: right;
+  color: #ff69b4;
+  font-size: 20px;
+}
+.alright:hover {
+  background-color: #dcdcdc;
+  transition-duration: 1s;
+}
+h1 {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  background-color: rgb(255, 255, 255);
+  width: 350px;
+  height:400px;
+  -webkit-box-shadow: 2px 4px 22px 0px rgba(222,98,207,1);
+-moz-box-shadow: 2px 4px 22px 0px rgba(222,98,207,1);
+box-shadow: 2px 4px 22px 0px rgba(222,98,207,1);
+  border:1px solid #1DEF70;
+  border-collapse: collapse;  
+}
+tr:nth-child(1) {
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: end;
+  font-size: 20px;
+  background-color:#1DEF70 ;
+}
+#LeftArrow, #RightArrow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+#monthCell{
+  padding-right: 50px;
+}
+#OtherMonth{
+  color: rgb(139, 151, 151);
+}
+td{
+  border: none;
+  height: 30px;
+}
+tr:nth-child(2) {
+  background-color:#1DEF70 ;
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+tr:nth-child(3), tr:nth-child(4),tr:nth-child(5),tr:nth-child(6),tr:nth-child(7) {
+  color: black;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+center {
+  color: #ff69b4;
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#datepicker1,
+#datepicker2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
